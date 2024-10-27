@@ -1,0 +1,116 @@
+/* General padding and layout for the resume container */
+.resume {
+  max-width: 100%;
+  margin: 80px auto 0;
+  padding: 0;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: #E6DACE;  /* Light background similar to form */
+
+}
+
+.resume-img{
+  margin-top: 40px;
+  margin-right: 15px;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
+/* Main headings */
+.resume h1 {
+  text-align: center;
+  font-size: 36px;
+  color: black;
+  margin: 0;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/* Section headings */
+.resume h2 {
+  font-size: 24px;
+  color: #0050FF; /* Match color scheme */
+  margin-bottom: 20px;
+}
+.resume-section h3{
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+}
+
+/* Resume sections layout */
+.resume-section {
+  margin-bottom: 30px;
+  padding: 35px;
+  max-width: 310px;
+  background-color: #fff; /* White background for each block */
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 15px 0 15px -4px #ccc5c0, -15px 0 15px -4px #ccc5c0;
+}
+
+.resume-section p{
+  line-height: 1.7em;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+/* Styled lists for skills and work tasks */
+ul {
+  list-style-type: none;
+  text-align: justify;
+}
+
+ul li {
+  font-size: 16px;
+  color: black;
+  font-weight: 300;
+}
+
+/* Job and Education titles */
+.job h3, .education h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  padding-top: 15px;
+}
+
+/* Job and Education date */
+.job p, .education p {
+  font-size: 18px;
+  color: black;
+  padding: 20px;
+  font-weight: 300;
+}
+
+
+.certification h3 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.certification p {
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+/* Footer link styling */
+.resume-footer {
+  text-align: center;
+  margin-top: 40px;
+  color: black;
+}
+
+.resume-footer a {
+  color: #0050FF; /* Match link color */
+  text-decoration: none;
+}
+
+.resume-footer a:hover {
+  color: #003399; /* Slightly darker on hover */
+}

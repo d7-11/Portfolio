@@ -1,0 +1,102 @@
+.aboutMe {
+    margin: 0;
+    margin-top: 80px;
+}
+
+.aboutMe-content {
+    max-width: 800px; /* Set a max width for the content */
+    margin: 0 auto; /* Center the content */
+    text-align: center; /* Center align the text */
+    background-color: #E6DACE;
+    padding-top: 60px;
+}
+
+.aboutMe-conteiner{
+    max-width: 310px;
+    background-color: #F4ECE6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.05);
+    padding-bottom: 10px;
+}
+
+.aboutMe-photo{
+    width: 100%; /* Make the image responsive */
+    height: 205px; /* Maintain aspect ratio */
+    width: 205px;
+    border-radius: 50%; /* Optional: round the image */
+    margin-top: 15px;
+}
+
+.about-name{
+    margin-top: 20px;
+    max-width: 165px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 27px;
+    line-height: 1;
+}
+
+.horizontalBorder {
+    margin: 0 auto;
+}
+
+.about-job{
+    margin: 0 auto;
+    max-width: 137px;
+    font-size: 17;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.aboutMe-buttons {
+    margin: 40px 0; /* Add space around buttons */
+}
+
+.btn-main, .btn-border {
+    padding: 10px 20px; /* Add padding to buttons */
+    margin: 5px; /* Spacing between buttons */
+    text-decoration: none; /* Remove underline */
+}
+
+.btn-main {
+    background-color: #007BFF; /* Primary button color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.btn-border {
+    border: 1px solid #007BFF; /* Border for secondary button */
+    color: #007BFF; /* Text color for secondary button */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.aboutMe-text{
+    background-color: #E6DACE;
+    padding-bottom: 50px;
+}
+
+.aboutMe-who-what{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    max-width: 280px;
+}
+
+.aboutMe-do{
+    max-width: 290px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: justify; 
+}

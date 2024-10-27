@@ -1,0 +1,72 @@
+/* Menu Component Styling */
+
+/* Container for the menu */
+.menu {
+    position: relative;
+}
+
+/* Hamburger button styling */
+.hamburger-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001; /* Ensures it appears above the overlay */
+}
+
+/* Full-screen overlay for the menu */
+.nav-menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: none; /* Hidden by default */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000; /* Below the hamburger button */
+}
+
+/* Styles when the menu is open */
+.nav-menu--open {
+    display: flex; /* Display as flex to enable centering */
+    opacity: 1; /* Make the overlay visible */
+    top: 0;
+    left: 0;
+}
+
+/* List styling for the menu items */
+.menu__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/*Menu item styling*/
+.menu__list li {
+    margin: 20px 0;
+}
+
+.menu__list li a {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    transition: color 0.2s;
+}
+
+.nav-menu.nav-menu--open {
+    position: fixed;
+    border-radius: 0;
+    top:0;
+    background-color:#F4ECE6;
+    transition: opacity 1s ease-in-out; /* Smooth fade effect */
+}
+
+.hamburger-react{
+    position: absolute;
+    z-index: 1002;
+}
+
+.nav-menu.nav-menu--open .current-page{
+    color: #0050FF;
+}

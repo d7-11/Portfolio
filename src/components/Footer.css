@@ -1,0 +1,67 @@
+.footer {
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
+    grid-template-rows: auto auto; /* Create 2 rows */
+    gap: 20px; /* Space between grid items */
+    justify-items: center; /* Center items horizontally */
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Align dt and dd from the start */
+.footer dl {
+    margin: 0;
+    text-align: start; /* Align text from the start */
+    display: block; /* Ensure block layout for dt and dd */
+    width: 100%; /* Occupy full width */
+    padding-left: 20px;
+}
+
+.footer dt, .footer dd {
+    text-align: start; /* Align dt and dd from the start */
+    padding: 0; /* Remove padding if any */
+}
+
+/* Place first two dl elements in the first row */
+.footer dl:nth-child(1) {
+    grid-column: 1;
+}
+
+.footer dl:nth-child(2) {
+    grid-column: 2;
+}
+
+/* Place the third dl element in the second row, spanning both columns */
+.footer dl:nth-child(3) {
+    grid-column: span 2;
+}
+
+/* Styling for dt and dd */
+.footer dt {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.footer dd {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+/* Footer copyright text */
+footer p {
+    font-size: 12px;
+    font-weight: 300;
+}
+footer .social-links{
+    display: flex;
+    gap: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
