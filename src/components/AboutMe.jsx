@@ -22,9 +22,9 @@ function AboutMe() {
 
                 </div>
                 <div className="aboutMe-text">
-                    <h3 className="aboutMe-who-what">Here's who I am & what I do</h3>
-                    <p className="aboutMe-do">I'm a Front-End Developer focused on creating clean, responsive, and user-friendly websites.</p>
-                    <p className="aboutMe-do">I turn ideas into engaging digital experiences, crafting seamless designs and interactive interfaces that work flawlessly across all devices.</p>
+                    <h3>Here's who I am & what I do</h3>
+                    <p>I'm a Front-End Developer focused on creating clean, responsive, and user-friendly websites.</p>
+                    <p>I turn ideas into engaging digital experiences, crafting seamless designs and interactive interfaces that work flawlessly across all devices.</p>
                 </div>
                 
             </div>

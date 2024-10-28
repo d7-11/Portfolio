@@ -19,13 +19,15 @@
     color: black;
     margin: 0;
     margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 /* Contact Form */
 .contact-form {
     display: flex;
     flex-direction: column;
-    max-width: 310px;
+    max-width: 330px;
     gap: 15px;
     background-color: white;
     margin-left: auto;

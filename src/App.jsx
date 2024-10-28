@@ -7,12 +7,14 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
-import './App.css'
+import './App.css';
 import ScrollToTop from './components/ScrollToTop';
+
+const isProduction = window.location.hostname === 'd7-11.github.io';
 
 function App() {
   return (
-    <Router>
+    <Router basename={isProduction ? '/Portfolio' : ''}>
       <ScrollToTop />
       <Header />
       <Routes>
@@ -26,6 +28,5 @@ function App() {
     </Router>
   );
 }
-
 
 export default App;

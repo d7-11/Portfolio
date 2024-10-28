@@ -3,16 +3,17 @@
     margin-top: 80px;
 }
 
-.aboutMe-content {
-    max-width: 800px; /* Set a max width for the content */
-    margin: 0 auto; /* Center the content */
-    text-align: center; /* Center align the text */
-    background-color: #E6DACE;
+.aboutMe-content{
+    max-width: 800px; 
+    margin: 0 auto;
+
+    text-align: center; 
+    background: linear-gradient(to bottom, white 1%, #E6DACE 50%);
     padding-top: 60px;
 }
 
 .aboutMe-conteiner{
-    max-width: 310px;
+    max-width: 330px;
     background-color: #F4ECE6;
     display: block;
     margin-left: auto;
@@ -22,10 +23,10 @@
 }
 
 .aboutMe-photo{
-    width: 100%; /* Make the image responsive */
-    height: 205px; /* Maintain aspect ratio */
+    width: 100%; 
+    height: 205px; 
     width: 205px;
-    border-radius: 50%; /* Optional: round the image */
+    border-radius: 50%;
     margin-top: 15px;
 }
 
@@ -46,31 +47,31 @@
 .about-job{
     margin: 0 auto;
     max-width: 137px;
-    font-size: 17;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 300;
     line-height: 1.25;
 }
 
 .aboutMe-buttons {
-    margin: 40px 0; /* Add space around buttons */
+    margin: 50px 0;
 }
 
 .btn-main, .btn-border {
-    padding: 10px 20px; /* Add padding to buttons */
-    margin: 5px; /* Spacing between buttons */
-    text-decoration: none; /* Remove underline */
+    padding: 10px 30px;
+    margin: 8px;
+    text-decoration: none;
 }
 
 .btn-main {
-    background-color: #007BFF; /* Primary button color */
-    color: white; /* Text color */
-    border-radius: 5px; /* Rounded corners */
+    background-color: #007BFF; 
+    color: white;
+    border-radius: 5px; 
 }
 
 .btn-border {
-    border: 1px solid #007BFF; /* Border for secondary button */
-    color: #007BFF; /* Text color for secondary button */
-    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #007BFF;
+    color: #007BFF; 
+    border-radius: 5px;
 }
 
 .aboutMe-text{
@@ -78,7 +79,7 @@
     padding-bottom: 50px;
 }
 
-.aboutMe-who-what{
+.aboutMe-text h3{
     font-size: 25px;
     font-weight: 400;
     line-height: 1.5;
@@ -89,9 +90,8 @@
     max-width: 280px;
 }
 
-.aboutMe-do{
+.aboutMe-text p{
     max-width: 290px;
-    text-align: left;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;

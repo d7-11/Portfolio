@@ -51,7 +51,6 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 1.5;
-    transition: color 0.2s;
 }
 
 .nav-menu.nav-menu--open {
@@ -59,7 +58,6 @@
     border-radius: 0;
     top:0;
     background-color:#F4ECE6;
-    transition: opacity 1s ease-in-out; /* Smooth fade effect */
 }
 
 .hamburger-react{
