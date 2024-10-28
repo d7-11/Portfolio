@@ -6,7 +6,7 @@ import linkedin from '../assets/icons/linkedin.svg';
 function SocialLinks() {
     return(
         <div className='social-links'>
-            <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+            <a href="https://t.me/+380660486661" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
                 <img src={telegram} alt="Telegram" width="24" height="24" />
             </a>
             <a href="https://www.github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
