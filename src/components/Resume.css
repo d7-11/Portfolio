@@ -75,38 +75,21 @@ ul li {
 }
 
 /* Job and Education titles */
-.job h3, .education h3 {
-  font-size: 22px;
+.job h3, .education h3, .certification h3 {
+  font-size: 20px;
   font-weight: 600;
   color: black;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 15px;
 }
 
-/* Job and Education date */
-.job p, .education p {
+.job p, .education p, .certification p {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
     color: black;
     letter-spacing: 2px;
-    padding-bottom: 10px;
-}
-
-
-.certification h3 {
-  font-size: 20px;
-  color: black;
-  margin-bottom: 15px;
-}
-
-.certification p {
-  ont-size: 16px;
-    line-height: 1.5;
-    font-weight: 300;
-    color: black;
-    letter-spacing: 2px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 /* Footer link styling */
